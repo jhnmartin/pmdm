@@ -1,3 +1,22 @@
+# Node
+node_modules/
+.pnpm-store/
+*.tsbuildinfo
+.turbo/
+
+# Env files (commit only *.example)
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Next.js
+.next/
+out/
+
+# Convex
+.convex/
+
 # Xcode
 build/
 DerivedData/
@@ -15,9 +34,21 @@ playground.xcworkspace
 *.xcscmblueprint
 *.xccheckout
 
-# Swift Package Manager
-.build/
-Packages/
+# Android / Gradle
+.gradle/
+local.properties
+*.apk
+*.aab
+.idea/
+*.iml
 
 # macOS
 .DS_Store
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# Next.js generated
+next-env.d.ts
